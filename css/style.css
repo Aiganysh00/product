@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+
+/*.navbar-logo2 {*/
+/*    background: url("../img/Bg.svg") no-repeat center/cover;*/
+/*    min-height: 40vh;*/
+/*}*/
+
+.navbar{
+    background: #ffffff;
+    border-radius: 0;
+    font-size: 15px ;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+}
+.navbar-logo h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;
+}
+.navbar-nav a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+    margin: 0 20px;
+}
+
+.navbar-nav button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #173A56;
+    padding: 10px 30px;
+    border: 2px solid #173A56;
+    border-radius: 10px;
+    background: transparent;
+    margin: 0 20px;
+    transition: .4s;
+
+}
+.navbar-nav button:hover {
+    background:#02897A;;
+    color: #173A56;
+    transform: scale(1.1);
+    border: 2px solid #02897A ;
+}
+.hero-group h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #22343D;
+}
+.hero-group p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343D;
+    padding: 30px 0;
+}
+.hero-group div{
+    display: flex;
+    align-items: center;
+}
+
+.hero-group div button{
+    font-weight: 600;
+    font-size: 16px;
+    color: #173A56;
+    padding: 10px 30px;
+    border: 2px solid #173A56;
+    border-radius: 10px;
+    background: transparent;
+    transition: -4s;
+}
+
+.hero-group-content{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #02897A;
+    margin-left: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.navbar{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+}
+
+.navbar-logo2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+ .navbar-logo2 h3{
+     font-weight: 600;
+     font-size: 22px;
+     line-height: 33px;
+     color: #22343D;
+ }
+ .navbar p{
+     width: 240px;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     color: #22343D;
+ }
+
+button{
+    background: #02897A;
+    border-radius: 4px;
+    height: 53px;
+    width: 175px;
+    border: 2px solid  #02897A;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.font-group h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+    padding: 8px 0;
+}
+.font-group h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+    padding: 10px 0;
+}
+.font-group p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    padding: 20px 0;
+}
+.font-group h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    padding: 10px 0;
+}
+.general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 30px;
+}
+.font1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.font2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font-group2 h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+}
+.font2 div h4{
+    padding: 8px 0 23px 0;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 48px;
+    color: #22343D;
+}
+.font-group2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.font-checkbox {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.font-checkbox p {
+    margin-left: 30px;
+}
+.font-group3 h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+}
+.font-group3 h5{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+}
+.font-group3 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+.font-group3 h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
