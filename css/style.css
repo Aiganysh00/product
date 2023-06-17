@@ -11,12 +11,6 @@ a {
     text-decoration: none;
 }
 
-
-/*.navbar-logo2 {*/
-/*    background: url("../img/Bg.svg") no-repeat center/cover;*/
-/*    min-height: 40vh;*/
-/*}*/
-
 .navbar{
     background: #ffffff;
     border-radius: 0;
@@ -139,7 +133,7 @@ button{
     height: 53px;
     width: 175px;
     border: 2px solid  #02897A;
-    color: white;
+    color: #02897A;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -249,6 +243,116 @@ button{
 }
 .font-group3 h4{
     font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.font3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+
+}
+
+.font-group4 h1{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+}
+.font-group4 p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #22343D;
+}
+.font-group4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+ .btn1{
+     font-weight: 500;
+     font-size: 16px;
+     color: #2F281E;
+     margin:  20px 0;
+     height: 53px;
+     width: 274px;
+     bottom: 24.29%;
+     background: #FFFFFF;
+     border-radius: 26px;
+ }
+ .btn2{
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: center;
+     color: #2F281E;
+     bottom: 24.29%;
+     background: #FFFFFF;
+     border-radius: 26px;
+     height: 53px;
+     width: 240px;
+ }
+ /*button{*/
+ /*    bottom: 24.29%;*/
+ /*    background: #FFFFFF;*/
+ /*    box-shadow: 0 2px 15px rgba(23, 58, 86, 0.1);*/
+ /*    border-radius: 26px;*/
+ /*}*/
+ .btn3{
+
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: center;
+     color: #2F281E;
+ }
+ b{
+     bottom: 24.29%;
+     background: #02897A;
+     box-shadow: 0 2px 15px rgba(23, 58, 86, 0.1);
+     border-radius: 26px;}
+ .btn4{
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: center;
+     color: #2F281E;
+ }
+
+ .general-font-group{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .btn5{
+     height: 53px;
+     width: 216px;
+     border-radius: 4px;
+     background: #02897A;
+ }
+
+ .font-btn {
+     display: flex;
+     align-items: center;
+     padding: 50px 0;
+ }
+.font-group9 h1{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;}
+
+.font-group9 p{
+    font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: #22343D;
